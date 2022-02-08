@@ -309,15 +309,6 @@ os = "macos"
     url = "https://github.com/JuliaBinaryWrappers/SCALAPACK32_jll.jl/releases/download/SCALAPACK32-v2.2.0+0/SCALAPACK32.v2.2.0.x86_64-apple-darwin-libgfortran4.tar.gz"
 [[SCALAPACK32]]
 arch = "x86_64"
-git-tree-sha1 = "828888214e667769847a98455ab09c23499babf9"
-libgfortran_version = "5.0.0"
-os = "macos"
-
-    [[SCALAPACK32.download]]
-    sha256 = "f8994dedc18946d1520c2ce82d744021ff77c0364cc3bc489c96ee4d7615da84"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK32_jll.jl/releases/download/SCALAPACK32-v2.2.0+0/SCALAPACK32.v2.2.0.x86_64-apple-darwin-libgfortran5.tar.gz"
-[[SCALAPACK32]]
-arch = "x86_64"
 git-tree-sha1 = "8494430d95901af1434e6f12856229868722a698"
 libc = "glibc"
 libgfortran_version = "3.0.0"
@@ -336,16 +327,6 @@ os = "linux"
     [[SCALAPACK32.download]]
     sha256 = "f1fa3141f0966bee58f05909dba2c698943eb9442790bc962a2b6b13b729cfb4"
     url = "https://github.com/JuliaBinaryWrappers/SCALAPACK32_jll.jl/releases/download/SCALAPACK32-v2.2.0+0/SCALAPACK32.v2.2.0.x86_64-linux-gnu-libgfortran4.tar.gz"
-[[SCALAPACK32]]
-arch = "x86_64"
-git-tree-sha1 = "e65ed3a3d19c78d970f7bded90f39185bbdbd0e8"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[SCALAPACK32.download]]
-    sha256 = "c718649894be7a1dfc01445e828ff0acb2f449f3151ae6c0d2f86669d2851269"
-    url = "https://github.com/JuliaBinaryWrappers/SCALAPACK32_jll.jl/releases/download/SCALAPACK32-v2.2.0+0/SCALAPACK32.v2.2.0.x86_64-linux-gnu-libgfortran5.tar.gz"
 [[SCALAPACK32]]
 arch = "x86_64"
 git-tree-sha1 = "0e54013173e7263e7a2fb4cb22edff44b64d1673"
@@ -403,3 +384,22 @@ os = "freebsd"
     [[SCALAPACK32.download]]
     sha256 = "cc2f2fad97d0a0553ee7d76e4b69439f78d3b7f4a5658222f23c390210dfe2fe"
     url = "https://github.com/JuliaBinaryWrappers/SCALAPACK32_jll.jl/releases/download/SCALAPACK32-v2.2.0+0/SCALAPACK32.v2.2.0.x86_64-unknown-freebsd-libgfortran5.tar.gz"
+[[SCALAPACK32]]
+arch = "x86_64"
+git-tree-sha1 = "9f12102f64774544b1276cbf8271338d19d4affc"
+libgfortran_version = "5.0.0"
+os = "macos"
+
+    [[SCALAPACK32.download]]
+    sha256 = "5463b5f7ea31d7f90c033eb4c787fb398edb841a511f57ede9fca972ed03f432"
+    url = "https://github.com/amontoison/SCALAPACK32_jll.jl/releases/download/SCALAPACK32-v2.2.0+1/SCALAPACK32.v2.2.0.x86_64-apple-darwin-libgfortran5.tar.gz"
+[[SCALAPACK32]]
+arch = "x86_64"
+git-tree-sha1 = "80686e28dcad788cecf45458dd641a591b9c5b52"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[SCALAPACK32.download]]
+    sha256 = "a85c8a7e26c968a5a8c811f362b3df17bc5e9b71dc9dd6b5d146e26807e42d76"
+    url = "https://github.com/amontoison/SCALAPACK32_jll.jl/releases/download/SCALAPACK32-v2.2.0+1/SCALAPACK32.v2.2.0.x86_64-linux-gnu-libgfortran5.tar.gz"
