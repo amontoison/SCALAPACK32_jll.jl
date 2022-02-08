@@ -1,6 +1,6 @@
 name = "SCALAPACK32_jll"
 uuid = "aabda75e-bfe4-5a37-92e3-ffe54af3c273"
-version = "2.1.0+0"
+version = "2.2.0+0"
 
 [deps]
 MPICH_jll = "7cb0a576-ebde-5e09-9194-50597f1243b4"
